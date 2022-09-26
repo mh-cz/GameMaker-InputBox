@@ -64,8 +64,6 @@ ib2.ib_next = ib3;
 ib3.ib_prev = ib2;
 ib3.ib_next = ib1;
 
-// focus the first one
+// force focus the first one
 ib1.focus();
-
-
 ```
