@@ -1,12 +1,16 @@
 # GameMaker InputBox
 A simple single-line box for string entries  
-  
+#### 
+![Bez názvu](https://user-images.githubusercontent.com/68820052/192260187-7d137365-7cbd-4e62-864c-ac09685f2aee.png)
+#### 
+
 ### Supported:
 - mouse selection
 - double click to select a whole word
 - `backspace/delete`
 - `ctrl + c/x/v`
 - `ctrl + backspace` to delete a whole word
+
 - `ctrl + left/right arrows` to skip a whole word
 - switching between connected boxes with up/down arrows
 - character limit
