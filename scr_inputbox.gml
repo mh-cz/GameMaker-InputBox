@@ -14,7 +14,7 @@ function inputbox(text = "", template_ib = undefined) constructor {
 	bkg_color_focused = merge_color(c_dkgray, c_black, 0.25);
 	bkg_alpha_focused = 1;
 	font = -1;
-	width = 400;
+	width = 200;
 	height = 20;
 	lcase = false;
 	ucase = false;
