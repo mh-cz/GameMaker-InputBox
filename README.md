@@ -11,7 +11,6 @@ A simple single-line box for string entries
 - `backspace/delete`
 - `ctrl + c/x/v`
 - `ctrl + backspace` to delete a whole word
-
 - `ctrl + left/right arrows` to skip a whole word
 - switching between connected boxes with up/down arrows
 - character limit
