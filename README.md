@@ -1,5 +1,6 @@
 # GameMaker InputBox
 A simple single-line box for string entries  
+  
 ### Supported:
 - mouse selection
 - double click to select a whole word
@@ -10,22 +11,22 @@ A simple single-line box for string entries
 - switching between connected boxes with up/down arrows
 - character limit
 - width limit
-
-### 
-- `ib_next` (inputbox) - 
-- `ib_prev` (inputbox)
-- `highlight_color` (color)
-- `highlight_alpha` (0-1)
-- `line_color` (color)
-- `line_alpha` (0-1)
-- `bkg_color` (color)
-- `bkg_alpha` (0-1)
-- `bkg_color_focused` (color)
-- `bkg_alpha_focused` (0-1)
-- `font` (font)(duh)
-- `width` (real)
-- `height` (real)
-- `lcase` (bool)
-- `ucase` (bool)
-- `char_limit` (real)
-- `width_limit` (bool)
+  
+### vars
+- `ib_next` (inputbox id) - focus this one when pressed `down`
+- `ib_prev` (inputbox id) - focus this one when pressed `up`
+- `highlight_color` (color) - mouse selection color
+- `highlight_alpha` (real) - mouse selection alpha
+- `line_color` (color) - color of the line below the box
+- `line_alpha` (real) - alpha of the line below the box
+- `bkg_color` (color) - background color (unfocused)
+- `bkg_alpha` (real) - background alpha (unfocused)
+- `bkg_color_focused` (color) - background color (focused)
+- `bkg_alpha_focused` (real) - background alpha (focused)
+- `font` (font) - font
+- `width` (real) - width of the input area
+- `height` (real) - height of the input area
+- `lcase` (bool) - force drawing in lowercase
+- `ucase` (bool) - force drawing in uppercase
+- `char_limit` (real) - limit the number of characters
+- `width_limit` (bool) - 
