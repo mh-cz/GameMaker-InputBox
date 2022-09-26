@@ -22,8 +22,8 @@ A simple single-line box for string entries
 
   
 ### vars
-- `ib_next` (inputbox id) - focus this one when pressed `down` [default: undefined]
-- `ib_prev` (inputbox id) - focus this one when pressed `up` [default: undefined]
+- `ib_next` (inputbox id) - focus this one when pressed `down`
+- `ib_prev` (inputbox id) - focus this one when pressed `up`
 - `highlight_color` (color) - mouse selection color
 - `highlight_alpha` (real) - mouse selection alpha
 - `line_color` (color) - color of the line below the box
@@ -33,8 +33,8 @@ A simple single-line box for string entries
 - `bkg_color_focused` (color) - background color (focused)
 - `bkg_alpha_focused` (real) - background alpha (focused)
 - `font` (font) - font
-- `width` (real) - width of the input area [default: 200]
-- `height` (real) - height of the input area [default: 20]
+- `width` (real) - width of the input area
+- `height` (real) - height of the input area
 - `lcase` (bool) - force drawing in lowercase
 - `ucase` (bool) - force drawing in uppercase (will overwrite lcase if both are true)
 - `char_limit` (real) - limit the number of characters
@@ -75,7 +75,7 @@ ib3.draw(50, 50+50);
 or
 ```
 /// DRAW
-ib1.draw(50, 50, false); // set variable "gui" to falls to use regular mouse instead of gui mouse 
+ib1.draw(50, 50, false); // set variable "gui" to false to use regular mouse instead of gui mouse 
 ib2.draw(50, 50+25, false);
 ib3.draw(50, 50+50, false);
 ```
