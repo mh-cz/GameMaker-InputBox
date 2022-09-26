@@ -55,7 +55,7 @@ ib3.font = Font2;
 ib2.lcase = true;
 ib3.ucase = true;
 
-// set some connections
+// set some connections to be able to switch between boxes using arrows
 ib1.ib_prev = ib3;
 ib1.ib_next = ib2;
 ib2.ib_prev = ib1;
