@@ -43,12 +43,11 @@ A simple single-line box for string entries
 ### Example
 ```
 /// CREATE EVENT
-// define ibs
 ib1 = new inputbox("Hi there");
 ib2 = new inputbox("Hi there two");
 ib3 = new inputbox("Hi there three");
 
-// set fonts
+// set some fonts
 ib2.font = Font1;
 ib3.font = Font2;
 
@@ -56,7 +55,7 @@ ib3.font = Font2;
 ib2.lcase = true;
 ib3.ucase = true;
 
-// set connections
+// set some connections
 ib1.ib_prev = ib3;
 ib1.ib_next = ib2;
 ib2.ib_prev = ib1;
@@ -66,4 +65,17 @@ ib3.ib_next = ib1;
 
 // force focus the first one
 ib1.focus();
+```
+```
+/// DRAW GUI
+ib1.draw(50, 50);
+ib2.draw(50, 50+25);
+ib3.draw(50, 50+50);
+```
+or
+```
+/// DRAW
+ib1.draw(50, 50, false); // set variable "gui" to falls to use regular mouse instead of gui mouse 
+ib2.draw(50, 50+25, false);
+ib3.draw(50, 50+50, false);
 ```
