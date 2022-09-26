@@ -16,7 +16,7 @@ A simple single-line box for string entries
 ### Functions
 - `focus()` - force focus
 - `copy_look(from)` - steal the look of another inputbox
-- `draw(x, y, gui=true)` - position x, position y, specification in which draw event it's being drawn
+- `draw(x, y, gui=true)` - position x, position y, if `gui` is true GUI mouse position will be used
 - `get_text(with_case=false)` - get the string inside. if with_case is true it will return text affected by lcase/ucase
 - `set_text(text)` - overwrite the text inside
 
