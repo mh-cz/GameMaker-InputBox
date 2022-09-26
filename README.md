@@ -1,10 +1,10 @@
 # GameMaker InputBox
 A simple single-line box for string entries  
-#### 
+
 <p align="center" width="100%">
     <img width="33%" src="https://user-images.githubusercontent.com/68820052/192260187-7d137365-7cbd-4e62-864c-ac09685f2aee.png"> 
 </p>
-#### 
+
 ### Supported:
 - mouse selection
 - double click to select a whole word
