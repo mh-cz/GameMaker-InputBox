@@ -237,7 +237,7 @@ function inputbox(text = "", template_ib = undefined) constructor {
 								if width_limit and string_width(cstr+ch) > width break;
 								if char_limit and string_length(cstr) >= char_limit break;	
 								str = string_insert(ch, str, cursor_pos+1);
-								cursor_pos++;
+								if i < sl cursor_pos++;
 							}
 						}
 						keyboard_string = "";
