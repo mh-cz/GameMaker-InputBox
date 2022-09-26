@@ -13,7 +13,7 @@ A simple single-line box for string entries
 - width limit
 
 
-### funcs
+### Functions
 - `focus()` - force focus
 - `copy_look(from)` - steal the look of another inputbox
 - `draw(x, y, gui=true)` - position x, position y, specification in which draw event it's being drawn
@@ -21,7 +21,7 @@ A simple single-line box for string entries
 - `set_text(text)` - overwrite the text inside
 
   
-### vars
+### Variables
 - `ib_next` (inputbox id) - focus this one when pressed `down`
 - `ib_prev` (inputbox id) - focus this one when pressed `up`
 - `highlight_color` (color) - mouse selection color
