@@ -29,4 +29,4 @@ A simple single-line box for string entries
 - `lcase` (bool) - force drawing in lowercase
 - `ucase` (bool) - force drawing in uppercase
 - `char_limit` (real) - limit the number of characters
-- `width_limit` (bool) - 
+- `width_limit` (bool) - do not allow the text to go over the right border
