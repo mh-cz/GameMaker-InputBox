@@ -32,9 +32,9 @@ A simple single-line box for string entries
 - `.width_limit` (bool) - do not allow the text to go over the right border
 
 ### funcs
-`.focus()` - force focus
-`.copy_look(from)` - steal the look of another inputbox
-`.draw(x, y, gui=true)` - position x, position y, specification in which draw event it's being drawn
-`.get_text(with_case=false)` - get the string inside. if with_case is true it will return text affected by lcase/ucase
-`.set_text(text)` - overwrite the text inside
+- `.focus()` - force focus
+- `.copy_look(from)` - steal the look of another inputbox
+- `.draw(x, y, gui=true)` - position x, position y, specification in which draw event it's being drawn
+- `.get_text(with_case=false)` - get the string inside. if with_case is true it will return text affected by lcase/ucase
+- `.set_text(text)` - overwrite the text inside
 
