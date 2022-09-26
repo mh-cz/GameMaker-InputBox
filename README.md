@@ -10,7 +10,8 @@ A simple single-line box for string entries
 - double click to select a whole word
 - overwriting selected text
 - `backspace/delete`
-- `ctrl + c/x/v`
+- `ctrl + a` to select everything
+- `ctrl + c/x/v` copy, cut, paste
 - `ctrl + backspace` to delete a whole word
 - `ctrl + left/right arrows` to skip a whole word
 - switching between connected boxes with up/down arrows
