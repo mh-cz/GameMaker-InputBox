@@ -27,6 +27,6 @@ A simple single-line box for string entries
 - `width` (real) - width of the input area
 - `height` (real) - height of the input area
 - `lcase` (bool) - force drawing in lowercase
-- `ucase` (bool) - force drawing in uppercase
+- `ucase` (bool) - force drawing in uppercase (will overwrite lcase if both are true)
 - `char_limit` (real) - limit the number of characters
 - `width_limit` (bool) - do not allow the text to go over the right border
