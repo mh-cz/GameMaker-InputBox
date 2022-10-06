@@ -21,7 +21,7 @@ function inputbox(text = "", template_ib = undefined) constructor {
 	char_limit = infinity;
 	width_limit = true;
 	
-	// touch these and your pc explode
+	// touch these and your pc explodes
 	str = "";
 	cstr = str;
 	cursor_pos = 0;
