@@ -86,6 +86,7 @@ function inputbox(text = "", template_ib = undefined) constructor {
 		if device_mouse_check_button_released(0, mb_left) {
 			global.IBDATA.focus_reset = true;
 			global.IBDATA.arrow_switch_t = -1;
+			keyboard_string = "";
 		}
 		else if device_mouse_check_button_pressed(0, mb_left) {
 			if global.IBDATA.focus_reset {
