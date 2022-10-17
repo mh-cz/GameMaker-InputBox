@@ -5,6 +5,8 @@ A simple single-line box for string entries
     <img width="33%" src="https://user-images.githubusercontent.com/68820052/192277586-c7ce2c5a-17bf-464f-a8e7-73ca5cd805cf.gif"> 
 </p>
 
+Fixed: keyboard_string not being cleared before focus
+
 ### Supported:
 - mouse selection
 - double click to select a whole word
