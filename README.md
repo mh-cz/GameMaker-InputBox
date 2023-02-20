@@ -1,6 +1,11 @@
 # GameMaker InputBox
 A simple single-line box for string entries  
-
+  
+  
+You should rather use https://github.com/mh-cz/gmtf  
+it's a bit faster and has more stuff in it  
+  
+  
 <p align="center" width="100%">
     <img width="33%" src="https://user-images.githubusercontent.com/68820052/192277586-c7ce2c5a-17bf-464f-a8e7-73ca5cd805cf.gif"> 
 </p>
