@@ -2,7 +2,7 @@
 A simple single-line box for string entries  
   
   
-You should rather use [https://github.com/mh-cz/gmtf  ](https://github.com/mh-cz/Gamemaker-Multiline-Inputbox)
+You should rather use [https://github.com/mh-cz/gmtf  ](https://github.com/mh-cz/Gamemaker-Multiline-Inputbox)  
 it's faster and has more stuff in it  
   
   
